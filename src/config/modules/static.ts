@@ -1,11 +1,11 @@
 import {ConfigStaticInterface} from 'flamingo/src/interface/config';
 
 const static_: ConfigStaticInterface = {
-  active: true,
+  enable: true,
   version: 'default',
 
   path: '/static',
   // opts: {}, // koa-static options -> https://github.com/koajs/static
 };
 
-export {static_};
+export = static_;

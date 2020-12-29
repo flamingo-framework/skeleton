@@ -3,8 +3,8 @@ import {NetworkInterfaceBase} from 'os';
 import {ConfigRouterInterface} from 'flamingo/src/interface/config';
 
 const router: ConfigRouterInterface = {
-  active: true,
+  enable: true,
   version: 'default',
 };
 
-export {router};
+export = router;
